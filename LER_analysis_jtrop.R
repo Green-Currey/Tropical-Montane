@@ -13,7 +13,7 @@ gm <- global.mat
 for (i in seq(nrow(gm))) {
   for (j in seq(ncol(gm))) {
     
-    if (is.na(gm[i,j])) {global.mat2[i,j] <- NA
+    if (is.na(gm[i,j])) {global.mat[i,j] <- NA
     
     } else {
       
